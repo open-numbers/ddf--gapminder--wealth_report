@@ -1,0 +1,14 @@
+{
+    "name": "ddf--gapminder--wealth_report",
+    "author": "Gapminder",
+    "description": "Wealth Report Dataset",
+    "language": {
+        "name": "English",
+        "id": "en"
+    },
+    "translations": [],
+    "license": "CC-BY-4.0",
+    "title": "Wealth Report Dataset",
+    "version": "0.0.1",
+    "resources": []
+}
