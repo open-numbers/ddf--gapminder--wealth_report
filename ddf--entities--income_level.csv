@@ -1,0 +1,5 @@
+income_level,name
+level1,under 0.8219 $/day
+level2,between 0.8219 and 8.219 $/day
+level3,between 8.219 and 82.19 $/day
+level4,over 82.19 $/day
