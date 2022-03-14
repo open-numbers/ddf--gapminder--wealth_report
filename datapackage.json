@@ -8,7 +8,7 @@
     "description": "Wealth Report Dataset",
     "author": "Gapminder",
     "license": "CC-BY-4.0",
-    "created": "2022-02-22T05:58:48.676221+00:00",
+    "created": "2022-03-14T03:24:02.875906+00:00",
     "translations": [],
     "version": "0.0.1",
     "resources": [
@@ -55,6 +55,31 @@
                     }
                 ],
                 "primaryKey": "concept"
+            }
+        },
+        {
+            "name": "ddf--datapoints--adult_percentage--by--geo--time--income_level",
+            "path": "ddf--datapoints--adult_percentage--by--geo--time--income_level.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "time"
+                    },
+                    {
+                        "name": "income_level"
+                    },
+                    {
+                        "name": "adult_percentage"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "time",
+                    "income_level"
+                ]
             }
         },
         {
@@ -1857,6 +1882,7 @@
                 ],
                 "value": "adult_percentage",
                 "resources": [
+                    "ddf--datapoints--adult_percentage--by--geo--time--income_level",
                     "ddf--datapoints--population--by--geo--time--income_level"
                 ]
             },
@@ -1879,6 +1905,7 @@
                 ],
                 "value": "adult_percentage",
                 "resources": [
+                    "ddf--datapoints--adult_percentage--by--geo--time--income_level",
                     "ddf--datapoints--population--by--geo--time--income_level"
                 ]
             },
